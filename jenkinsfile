@@ -4,7 +4,6 @@ pipeline {
     tools {
         nodejs 'NoeJS 26.7.0'
     }
-
     stages {
         stage('checkout') {
          steps {
@@ -18,7 +17,6 @@ pipeline {
             }
         }
     }
-
     post {
         success {
             echo "Build Succeeded"
