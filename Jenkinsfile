@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'NoeJS 26.7.0'
+        nodejs 'NodeJS 26.7.0'
     }
     stages {
         stage('checkout') {
